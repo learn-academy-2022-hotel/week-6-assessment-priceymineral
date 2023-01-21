@@ -56,7 +56,7 @@ const peopleInfo = (peopleArr) => {
     // }).join(" ")
     //////////////////////////
     // one liner info: https://www.freecodecamp.org/news/how-to-capitalize-words-in-javascript/
-    name = name.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
+    name = name.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase())
     let personInfo = `${name} is ${occupation}.`
     info.push(personInfo)
   }
@@ -134,7 +134,6 @@ const cubeAndSum2 = [0, 5, 10]
   // initialize a result varible
   // iterate over input array
     // add the result of the current number cubed to the result
-
   // return the result
 
 const sumOfCubes = (arr) => {
