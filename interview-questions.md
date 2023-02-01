@@ -30,15 +30,15 @@ rails generate GENERATOR --help will list the options that can be passed to the 
 
 4. Consider the Rails routes below. What is the name of the controller method that would be called by each route? What action would each of the controller methods perform?
 
-action: "GET" location: /students => index
+action: "GET" location: /students => index - would retrieve all the entries in the database 
 
-action: "POST" location: /students => create
+action: "POST" location: /students => create - adds an entry to the database
 
-action: "GET" location: /students/new => new
+action: "GET" location: /students/new => new - 	returns an HTML form for creating a new document
 
-action: "GET" location: /students/2 => show
+action: "GET" location: /students/2 => show - will retrieve a specific document from a database, in this case one that is associated with the number 2 (typically id)
 
-action: "GET" location: /students/2/edit => edit
+action: "GET" location: /students/2/edit => edit - return an HTML form for editing a document
 
 action: "PATCH" location: /students/2 => update
 
